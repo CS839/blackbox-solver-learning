@@ -8,7 +8,8 @@ T.J. (Timothy) Wilder
 The general goal is to allow new types of solvers (such as algorithmic solvers for shortest path, max flow, etc.) to be included as elements of neural network architectures.
 
 #### What have people done about it and what are the limitations of existing techniques?
-- https://openreview.net/forum?id=BkevoJSYPB (unknown authors under double-blind review)
+- https://openreview.net/forum?id=BkevoJSYPB, Differentiation of Blackbox Combinatorial Solvers by Marin Vlastelica Pogančić, Anselm Paulus, Vit Musil, Georg Martius, Michal Rolinek
+- Code: https://sites.google.com/view/combinatorialgradients/home
 - Limitations:
     - Unable to learn/update the parameters of the blackbox solver
     - Only works with linear objective functions
