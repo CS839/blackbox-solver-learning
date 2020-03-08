@@ -21,6 +21,20 @@ I propose to look into these limitations and select one or two which I can remov
 #### What are your measures of success?
 - Success would depend on the exact limitation, but is generally weakening or removing a restriction or proving that it can't be
 ---
+## Week of Mar 1
+
+#### On a scale of 1-10, how do we rate our progress over the past week?
+3: I only looked at the papers a little bit, and didn't end up looking at the code
+
+#### What did we accomplish from last week's tasks?
+Because I was very busy, I only looked at the papers a little bit, but not really enough to gain the understanding I needed.
+
+#### What problems or concerns do we have?
+None.
+
+#### What do we plan to accomplish do over the next week?
+Basically the same thing I was planning for this week, but hopefully I'll have more time to work on it.
+---
 
 ## Week of Feb 23
 
