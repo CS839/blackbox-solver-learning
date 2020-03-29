@@ -21,6 +21,24 @@ I propose to look into these limitations and select one or two which I can remov
 #### What are your measures of success?
 - Success would depend on the exact limitation, but is generally weakening or removing a restriction or proving that it can't be
 ---
+## Week of Mar 23
+
+#### On a scale of 1-10, how do we rate our progress over the past week?
+2: I did what I said I was going to do, but it took an extra week (+ Spring Break) and didn't update for the previous week
+
+#### What did we accomplish from last week's tasks?
+- Started catching up after Spring Break and Coronavirus stuff put me a while behind...
+- I haven't found a detailed enough description of "differentiation over argmin" to fully understand it, but I've gotten enough to understand how they use it in the paper. Looking at other papers, there are ones that do an argmin optimization of non-linear functions, so that implies that it should be possible to use blackbox solvers with non-linear objectives.
+- I found that loss-augmented inference was also called loss-adjusted inference and is used as a technique to allow a perceptron-like algorithm to be influenced by a loss function. Since the standard perceptron update just uses a linear difference, loss-augmented inference is used to update based on a loss function which can be based on the task the perceptron is to be used for. Specifically, this is useful if there is no perfect w* which achieves 0 loss, so the loss function helps to optimize in a specific way.
+- I looked at the code for a while (they only provided code for their Dijkstra's algorithm solver), and haven't found any reference to their formulation of the Backward Pass in Algorithm 1 in the paper. Specifically, the Backward Pass should require calling the Solver (in this case, Dijkstra's Shortest Path Algorithm) to find the effective gradients. However, I haven't found any place in the code that explicitly calls the Solver outside of the single forward pass use. While the loss in the forward pass is indeed based on the output of Dijkstra's algorithm, I haven't found a direct connection between the weights and the loss that would consistute using the loss directly to calculate the gradient. I'll continue investigating and actually testing the code next week to see if there's hidden functionality or if their code is in fact doing something different here.
+
+#### What problems or concerns do we have?
+Just that it's been hard to adjust to online classes, but I hope to do better moving forward.
+
+#### What do we plan to accomplish do over the next week?
+Investigate the code more to figure out where their backward pass rule is coming from. If I can understand thta, I should be able to figure out how they fit in other blackbox solvers and oculd potentially add my own or adjust them.
+
+---
 ## Week of Mar 1
 
 #### On a scale of 1-10, how do we rate our progress over the past week?
