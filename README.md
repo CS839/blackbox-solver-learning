@@ -21,6 +21,22 @@ I propose to look into these limitations and select one or two which I can remov
 #### What are your measures of success?
 - Success would depend on the exact limitation, but is generally weakening or removing a restriction or proving that it can't be
 ---
+## Week of Mar 30
+
+#### On a scale of 1-10, how do we rate our progress over the past week?
+5: Getting the code was significantly more challenging than expected and due to the lack of a CUDA-enabled system, the actual runtime is significant so it's quite challenging to actually test things
+
+#### What did we accomplish from last week's tasks?
+- I spent most of my time adjusting things and testing to actually get the code to run the first place
+- I haven't figured out anything additional about how they implement their backward pass due to all my time spent on running the code
+
+#### What problems or concerns do we have?
+None
+
+#### What do we plan to accomplish do over the next week?
+Now that I can run the code, even if it's slow, I should be able to test and figure out exactly how the learning is being done. Since there seems to be no explicit mention of their backward pass it may prove simpler than expected to add additional blackbox solvers.
+
+---
 ## Week of Mar 23
 
 #### On a scale of 1-10, how do we rate our progress over the past week?
