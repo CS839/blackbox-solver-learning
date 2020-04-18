@@ -20,6 +20,25 @@ I propose to look into these limitations and select one or two which I can remov
 
 #### What are your measures of success?
 - Success would depend on the exact limitation, but is generally weakening or removing a restriction or proving that it can't be
+
+---
+## Week of April 12
+
+#### On a scale of 1-10, how do we rate our progress over the past week?
+8: I didn't update as frequently as I should have but I also got further than I planned.
+
+#### What did we accomplish from last week's tasks?
+- I got the code completely working and figured out how to configure it
+- I figured out where they were doing the backward pass through the blackbox
+- I implemented an A* blackbox algorithm as a drop-in replacement for their Dijkstra's algorithm implementation
+    - The network was still able to learn with this, so my version was valid
+
+#### What problems or concerns do we have?
+None
+
+#### What do we plan to accomplish do over the next week?
+I want to test my A* algorithm vs Dijkstra's. It should give the same paths (ie. the optimal one) for any input, and thus, in theory, should cause the same updates. I'm planning to try implementing a different version which attempts to have learnable hyperparameters. Specifically, I'd like to be able to learn the best neighbor function and the best heuristic cost function.
+
 ---
 ## Week of Mar 30
 
