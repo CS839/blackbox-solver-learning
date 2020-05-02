@@ -22,6 +22,23 @@ I propose to look into these limitations and select one or two which I can remov
 - Success would depend on the exact limitation, but is generally weakening or removing a restriction or proving that it can't be
 
 ---
+## Week of April 19
+
+#### On a scale of 1-10, how do we rate our progress over the past week?
+6: I didn't do what I intended but I made overall progress
+
+#### What did we accomplish from last week's tasks?
+- I mostly focused on preparing my presentation
+- I got some statistics about the difference between A* and Dijkstra and found that there is at least an interesting optimization difference between the two in terms of speed on different problems
+- I made some progress on implementing a multiple-blackbox approach
+
+#### What problems or concerns do we have?
+I had forgotten that I needed to prepare for the early presentaiton, so I hadn't planned out my time well in advance.
+
+#### What do we plan to accomplish do over the next week?
+Finish the multi-blackbox approach and show that it works.
+
+---
 ## Week of April 12
 
 #### On a scale of 1-10, how do we rate our progress over the past week?
