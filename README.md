@@ -1,6 +1,5 @@
-# Project Title
-## Authors
-T.J. (Timothy) Wilder
+# Learning and Optimization of Blackbox Combinatorial Solvers in Neural Networks
+## T.J. (Timothy) Wilder
 
 ## Problem and technique description
 
@@ -20,6 +19,11 @@ I propose to look into these limitations and select one or two which I can remov
 
 #### What are your measures of success?
 - Success would depend on the exact limitation, but is generally weakening or removing a restriction or proving that it can't be
+
+---
+## Week of April 26+
+- I successfully implemetned the combined solver with an additional parameter
+- Other information and results will simply go into the final paper
 
 ---
 ## Week of April 19
